@@ -1,3 +1,4 @@
+// @flow
 export default class StoryBoarder {
   constructor({ chapters = [], transition = { time: 1000 } }) {
     this._chapters = chapters

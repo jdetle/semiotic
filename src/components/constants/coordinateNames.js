@@ -1,8 +1,9 @@
-export const projectedX = "x"
-export const projectedY = "y"
-export const projectedYMiddle = "yMiddle"
-export const projectedYTop = "yTop"
-export const projectedYBottom = "yBottom"
+// @flow
+export const projectedX: string = "x"
+export const projectedY: string = "y"
+export const projectedYMiddle: string = "yMiddle"
+export const projectedYTop: string = "yTop"
+export const projectedYBottom: string = "yBottom"
 
 /*
 Use symbols for x/y/offset to avoid conflicts when projecting the dataset

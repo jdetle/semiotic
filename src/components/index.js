@@ -1,3 +1,4 @@
+// @flow
 import AnnotationLayer from "./AnnotationLayer"
 import DividedLine from "./DividedLine"
 import XYFrame from "./XYFrame"

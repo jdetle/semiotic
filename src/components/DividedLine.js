@@ -1,3 +1,4 @@
+// @flow
 import React from "react"
 
 import { line, curveLinear } from "d3-shape"

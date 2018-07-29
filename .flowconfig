@@ -9,3 +9,9 @@
 [options]
 
 [strict]
+sketchy-null
+untyped-type-import
+untyped-import
+unsafe-getters-setters
+unclear-type
+nonstrict-import

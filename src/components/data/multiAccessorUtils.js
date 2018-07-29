@@ -1,3 +1,4 @@
+// @flow
 export const findFirstAccessorValue = (accessorArray, data) => {
   for (let i = 0; i < accessorArray.length; i++) {
     const valueCheck = accessorArray[i](data)

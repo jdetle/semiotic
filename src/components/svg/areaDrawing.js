@@ -1,3 +1,4 @@
+// @flow
 import { contourDensity } from "d3-contour"
 import { scaleLinear } from "d3-scale"
 import polylabel from "@mapbox/polylabel"

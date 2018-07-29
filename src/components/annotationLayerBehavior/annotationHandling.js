@@ -1,4 +1,4 @@
-// @flow
+// @flow strict
 
 import labeler from "./d3labeler"
 // import { AnnotationHandling, AnnotationLayerProps } from "../types/annotationTypes"

@@ -1,3 +1,4 @@
+// @flow
 //size is a special case and handled checking the actual values in the size array
 import PropTypes from "prop-types"
 

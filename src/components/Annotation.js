@@ -4,8 +4,8 @@ import AnnotationLabel from "react-annotation/lib/Types/AnnotationLabel"
 
 type Props = {
   noteData: {
-    eventListeners: Object,
-    events: Object,
+    eventListeners: {[key: any]: (evt: Event) => void},
+    events: {[key: any]: Event},
     type: *,
     screenCoordinates: Array<Array<number>>,
     // What is this type supposed to be? It gets used only in a boolean context
@@ -16,7 +16,9 @@ type Props = {
     dx: number,
     dy: number,
     // TODO: What should this be typed as?
-    note: Object
+    note: {
+      label: string,
+    }
   }
 }
 

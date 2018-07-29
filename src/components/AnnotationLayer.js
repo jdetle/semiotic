@@ -1,4 +1,4 @@
-// @flow
+// @flow strict
 // modules
 import React from "react"
 //import { load } from 'opentype.js'
@@ -13,6 +13,9 @@ import type {
   AnnotationTypes,
   AxisType
 } from "./types/annotationTypes"
+import type { 
+  MarginType 
+} from "./types/generalTypes"
 
 type AnnotationLayerProps = {
   useSpans: boolean,
@@ -21,11 +24,11 @@ type AnnotationLayerProps = {
     title: string,
     legendGroups: Array<Object>
   },
-  margin: Object,
+  margin: MarginType,
   size: Array<number>,
   axes?: Array<AxisType>,
   annotationHandling?: AnnotationHandling | AnnotationTypes,
-  annotations: Array<Object>,
+  annotations: Array<React$Element<any>>,
   pointSizeFunction?: Function,
   labelSizeFunction?: Function,
   svgAnnotationRule: Function,

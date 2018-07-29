@@ -1,3 +1,4 @@
+// @flow
 import React from "react"
 import { forceSimulation, forceX, forceY, forceCollide } from "d3-force"
 import { /*area, curveCatmullRom,*/ arc } from "d3-shape"

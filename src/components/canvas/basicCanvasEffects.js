@@ -1,3 +1,4 @@
+// @flow
 export const chuckCloseCanvasTransform = (
   canvas,
   context,

@@ -1,3 +1,5 @@
+// @flow
+
 import XYFrame from "./XYFrame"
 import createSparkFrame from "./SparkFrame"
 import { xyFrameDefaults } from "./SparkFrame"

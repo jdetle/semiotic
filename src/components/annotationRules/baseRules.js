@@ -1,3 +1,4 @@
+// @flow strict
 import React from "react"
 import AnnotationCalloutCircle from "react-annotation/lib/Types/AnnotationCalloutCircle"
 import AnnotationCalloutRect from "react-annotation/lib/Types/AnnotationCalloutRect"

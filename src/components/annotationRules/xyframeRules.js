@@ -1,3 +1,4 @@
+// @flow
 import React from "react"
 import { Mark } from "semiotic-mark"
 import Annotation from "../Annotation"

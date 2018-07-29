@@ -1,3 +1,4 @@
+// @flow
 // The MIT License (MIT)
 // Copyright (c) 2013 Marc J. Schmidt, Copyright (c) 2015 Kyle Mathews
 

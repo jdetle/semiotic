@@ -1,3 +1,5 @@
+// @flow
+
 import XYFrame from "./XYFrame"
 import createResponsiveFrame from "./ResponsiveFrame"
 

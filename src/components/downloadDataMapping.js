@@ -1,3 +1,5 @@
+// @flow
+
 const cleanDates = value => {
   if (value && value.toJSON) {
     return value.toJSON()

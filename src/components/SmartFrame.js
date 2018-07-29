@@ -1,3 +1,5 @@
+// @flow
+
 import React from "react"
 
 import XYFrame from "./XYFrame"
